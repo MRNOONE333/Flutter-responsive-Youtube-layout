@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_design/desktopBody.dart';
+import 'package:responsive_design/mobileBody.dart';
 
 import 'ResponsiveLayout.dart';
 
@@ -16,7 +17,7 @@ class _HomePageState extends State<HomePage> {
     return  Scaffold(
       body: ResponsiveLayout(
         desktopBody : MydesktopBody(),
-        mobileBody : Placeholder();
+        mobileBody : MymobileBody(),
       ),
     );
   }
